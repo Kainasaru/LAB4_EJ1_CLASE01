@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Leonardo Ariel Manassali - LAB 4 2022';
   num1 = 0;
   num2 = 0;
   suma = 0;
