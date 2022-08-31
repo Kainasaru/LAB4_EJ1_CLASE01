@@ -1,0 +1,31 @@
+<table>
+  <thead>
+    <th colspan="2">Calculadora</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Operando 1:</td>
+      <td><input  type="number" id="edadUno" [(ngModel)]="num1"></td>
+    </tr>
+    <tr>
+      <td>Operando 2:</td>
+      <td><input  type="number" id="edadDos" [(ngModel)]="num2"></td>
+    </tr>
+    <tr>
+      <td>Suma:</td>
+      <td><input type="text" [ngModel]="suma" disabled></td>
+    </tr>
+    <tr>
+      <td>Promedio:</td>
+      <td><input type="text" [ngModel]="promedio" disabled></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="Calcular" (click)="Calcular()"></td>
+      <td><input type="button" (click)="Limpiar()" value="Limpiar cuadros de texto"></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+
+<router-outlet></router-outlet>
